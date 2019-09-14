@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Page </title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<style>
+body {
+    background-image: url(https://vosvado.com/wp-content/uploads/2014/06/web-Group-Of-Friends-Having-Fun-To-58863857.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: firebrick;
+    color: white;
+    opacity: .75;
+    margin-top: 20px;
+}
+
+#submit {
+    background: firebrick;
+}
+
+#jumbo_h2 {
+    color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.panel-title {
+    color: firebrick;
+}
+</style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+        <h1 class="text-center"><i class="fa fa-female"></i> Friend Finder <i class="fa fa-male"></i></h1>
+        <hr>
+        <h2 id="jumbo_h2" class="text-center">Let's get started - Fill out the survey</h2>
+        <br>
+
+        <div class="text-center">
+            <a href="/"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-home"></span>  Home</button></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+
+            <!-- Friends Page -->
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Friend Finder Survery<strong></h3>
+                </div>
+
+                <div class="panel-body">
+                    <form role="form">
+
+                    <h3><strong>About You</strong></h3>
+                    <h3>Name (Required)</h3>
+                    <input type="text" name="" id="name" class="form-control" required >
+
+                    <h3>Link to Photo Image (Required)</h3>
+                    <input type="text" name="" id="photo" class="form-control" required >
+                    <hr>
+
+                    <h3><strong>Survey Questions</strong></h3>
+                    <hr>
+
+                    <h3>You want a friend who is always there for you.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q1">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+
+                    <h3>Strong moral views are important qualities for a friend.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q2">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+
+                    <h3>You like friends who are quirky.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q3">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+
+                    <h3>You like friends who are spontaneous.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q4">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+
+                    <h3>You value friends who are extroversion and funny instead of quiet and shy.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q5">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                    <h3>You want a friend who would rather read a book than go on an adventure.  </h3>
+                    <select data-placeholder="" class="chosen-select" id="q9">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                    <h3>You like friends who are not afraid to disagree with you.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q10">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                    <h3>You need a friend who loves being outdoors.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q6">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                    <h3>Your idea of a fun get together involves going to sporting events.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q7">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                    <h3>You would much rather go to a restaurant and a movie than get together with friends and play games.</h3>
+                    <select data-placeholder="" class="chosen-select" id="q8">
+                        <option value=""></option>
+                        <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                            <br>
+                            <br>
+
+                        <button type="button" id="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+ 
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Your most compatible friend</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="old-container">
+        <p class="bold"><a href="/api/friends">API Friends Link</a> |
+        <a href="git+https://github.com/monuma18/FriendFinder.git " target="_blank">github repo</a></p >
+  </div>
+</footer>
+
+</div>
+
+<script src="https://use.fontawesome.com/0bf9ac1b8c.js"></script>
+
+ 
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Bootstrap JavaScript CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+<script>
+ $("#submit").on("click", function(event){
+  event.preventDefault();
+ alert("Hold One Second")
+ if( $('#name').val().trim() !== "" && $('#photo').val().trim() !== "")  {
+  alert("There You're Are")
+  var userData = {
+        name: $("#name").val(),
+        photo: $("#photo").val(),
+        scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+    }
+    $.post("/api/friends", userData, function(data){
+      console.log("data:"+data.name)
+      console.log("data:"+data.photo)
+      var title =$("<h1>")
+        title.append(data.name)
+     // Show the modal with the best match
+     $(".modal-body").append(title);
+        var img = $("<img>")
+        img.attr("src",data.photo)
+      // Show the modal with the best match
+      $(".modal-body").append(img);
+
+      $('#exampleModal').modal('show');
+      // clear the input fields in the form
+      // $("#name").val("");
+      // $("#photo").val("");
+
+    })
+
+ }
+
+ 
+    
+ })
+
+
+ 
+ 
+ 
+</script>
+
+</body>
+</html>
