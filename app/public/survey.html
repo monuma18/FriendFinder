@@ -43,6 +43,10 @@ body {
 .panel-title {
     color: firebrick;
 }
+.photo{
+    width: 50%;
+    height: 50%;
+}
 </style>
 </head>
 
@@ -259,7 +263,7 @@ body {
         title.append(data.name)
      // Show the modal with the best match
      $(".modal-body").append(title);
-        var img = $("<img>")
+        var img = $("<img class='photo'>")
         img.attr("src",data.photo)
       // Show the modal with the best match
       $(".modal-body").append(img);
